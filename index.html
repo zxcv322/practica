@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>NetAnime</title>
+  </head>
+  <body>
+    <h1>BakiDou</h1>
+    <main>
+
+     <!--lista no ordenada--> 
+     <h3>Lista de temporadas:</h3>
+     <ul>
+      <li>Temporada 1</li>
+      <li>Temporada 2</li>
+      <li>Temporada 3</li>
+     </ul>
+     <!--termina lista no ordenada-->
+
+     <!--lista ordenada-->
+     <h3>Lista de Openings:</h3>
+     <ol>
+      <li>Opening Temp 1</li>
+      <li>Opening Temp 2</li>
+      <li>Opening Temp 3</li>
+     </ol>
+     <!--fin lista ordenada--> 
+
+     <!--(target="_blank") significa abrir enlace en una nueva pestaña (rel="noopener noreferrer") significa proteccion contra ataques-->
+     <h3>Imagenes de Baki:</h3>
+     
+     <img src="/imagenes/baki.jpg" alt="Baki">
+     <img src="/imagenes/faraon.jpg" alt="faraon-love-shady">
+
+     <!--enlace texto-->
+     <p>Haz click aqui para <a href="#" target="_blank" rel="noopener noreferrer">ver mas.</a></p>
+     <!--fin enlace texto-->
+     
+     <!--comienza enlaces internos-->
+     <a href="#parrafo-1">Parrafo 1</a>
+     <a href="#parrafo-2">Parrafo 2</a>
+     <a href="#parrafo-3">Parrafo 3</a>
+     <a href="#parrafo-4">Parrafo 4</a>
+     <!--termina enlaces internos--> 
+
+     <h3 id="parrafo-1">Parrafo 1</h3>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsum dolorem eos laudantium vero ut, sed quo fugit, nostrum non, consectetur amet architecto hic. Est quidem neque voluptatum nisi odit!</p>
+     <h3 id="parrafo-2">Parrafo 2</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestiae cumque nobis? Tempore necessitatibus, eveniet officiis omnis dolores minus neque, ipsum aperiam quod esse dicta iste autem nesciunt ipsa natus.</p>
+     <h3 id="parrafo-3">Parrafo 3</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius porro aspernatur ipsum explicabo harum iusto reprehenderit. Ipsam modi officiis, eos dolorem tenetur ducimus atque quibusdam dolorum veritatis id ab.</p>
+     <h3 id="parrafo-4">Parrafo 4</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eaque repellendus animi minima molestiae sint velit accusantium consequatur, neque dolores soluta praesentium quibusdam nihil quae temporibus in harum quas officiis!</p>
+
+     <!--formularios-->
+
+     <form action="/enviar-respuesta">
+      <!--botones de radio-->
+      <label for="hotmail"><input id="hotmail" type="radio" value="hotmail" name="hotmail-gmail" checked>hotmail</label>
+      <label for="gmail"><input id="gmail" type="radio" value="gmail" name="hotmail-gmail">gmail</label>
+
+     <!--texto y boton enviar--> 
+      <input type="text" placeholder="Correo Electronico" required>
+      <button type="submit">Enviar</button><br>
+
+      <h3>Recomiendo esta pagina?</h3> 
+     <!--casillas de verificación-->
+     
+      <label for="Si"><input id="Si" type="checkbox" value="Si" name="Si-No" checked>Si</label><br>
+      <label for="No"><input id="No" type="checkbox" value="No" name="Si-No">No</label><br>
+     </form>
+
+    </main>
+    <footer>
+      <p><small> Reservados - NetAnime.com</small></p>
+    </footer>
+  </body>
+</html> 
