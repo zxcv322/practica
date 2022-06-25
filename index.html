@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>NetAnime</title>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>BakiDou</h1>
+    <h1 id="titulo-principal">BakiDou</h1>
     <main>
 
-     <!--lista no ordenada--> 
+     <!--lista no ordenada-->
+  <div class="contenedor-listas">
      <h3>Lista de temporadas:</h3>
-     <ul>
+     <ul class="listas-temporada-opening">
       <li>Temporada 1</li>
       <li>Temporada 2</li>
       <li>Temporada 3</li>
@@ -18,17 +23,18 @@
 
      <!--lista ordenada-->
      <h3>Lista de Openings:</h3>
-     <ol>
+     <ol class="listas-temporada-opening">
       <li>Opening Temp 1</li>
       <li>Opening Temp 2</li>
       <li>Opening Temp 3</li>
      </ol>
+  </div> 
      <!--fin lista ordenada--> 
 
      <!--(target="_blank") significa abrir enlace en una nueva pestaña (rel="noopener noreferrer") significa proteccion contra ataques-->
      <h3>Imagenes de Baki:</h3>
      
-     <img src="/imagenes/baki.jpg" alt="Baki">
+     <img src="/imagenes/baki.jpg" class="BAKI" alt="Baki">
      <img src="/imagenes/faraon.jpg" alt="faraon-love-shady">
 
      <!--enlace texto-->
@@ -41,7 +47,7 @@
      <a href="#parrafo-3">Parrafo 3</a>
      <a href="#parrafo-4">Parrafo 4</a>
      <!--termina enlaces internos--> 
-
+  <div class="contenedor-parrafos">
      <h3 id="parrafo-1">Parrafo 1</h3>
      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsum dolorem eos laudantium vero ut, sed quo fugit, nostrum non, consectetur amet architecto hic. Est quidem neque voluptatum nisi odit!</p>
      <h3 id="parrafo-2">Parrafo 2</h3>
@@ -50,7 +56,7 @@
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius porro aspernatur ipsum explicabo harum iusto reprehenderit. Ipsam modi officiis, eos dolorem tenetur ducimus atque quibusdam dolorum veritatis id ab.</p>
      <h3 id="parrafo-4">Parrafo 4</h3>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eaque repellendus animi minima molestiae sint velit accusantium consequatur, neque dolores soluta praesentium quibusdam nihil quae temporibus in harum quas officiis!</p>
-
+  </div>
      <!--formularios-->
 
      <form action="/enviar-respuesta">
@@ -71,7 +77,7 @@
 
     </main>
     <footer>
-      <p><small> Reservados - NetAnime.com</small></p>
+      <p><small> Derechos Reservados - NetAnime.com</small></p>
     </footer>
   </body>
 </html> 
