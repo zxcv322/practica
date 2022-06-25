@@ -1,1 +1,43 @@
-/* Este es mi hoja de estilos */
+/* Atributo id */
+
+#titulo-principal {font-size: 40px; color: brown; font-family: font-family: 'Roboto', sans-serif;}
+
+
+h2 {color:brown;}
+
+h3 {color:blueviolet;}
+
+/* Selectores de clases */
+
+.listas-temporada-opening {color:chocolate;}
+.BAKI {width: 1380px;}
+.contenedor-listas {background-color:aquamarine;}
+
+/* Tamano de fuente */
+
+h2 {font-size: 35px;}
+
+ul, ol {font-size: 15px;}
+
+p {color:green;font-size: 15px;}
+
+/* Tipografias */
+
+h1, h3 {font-family: 'Roboto', sans-serif;}
+p {font-family: 'Kdam Thmor Pro', sans-serif;}
+
+/* Cambiar tamaño de imagenes */
+
+img {width: 500px;}
+
+/* Bordes imagenes ejemplos: */
+
+img { border: width 10px; border-color: yellowgreen; border-style: solid;}
+img { border-radius: 16px;}
+
+/* Color de fondo <div> */
+
+div {background-color: silver;}
+
+/* Selectores de atributos */
+
